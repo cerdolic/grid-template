@@ -15,7 +15,7 @@
 .skill-item {
   position: relative;
   min-height: calc(33vh - 10.5px);
-  background-color: #2d3651;
+  background-color: $color-main;
   overflow: hidden;
 
   &:nth-of-type(1) {
@@ -55,7 +55,7 @@
   }
 
   &__overlay {
-    background-color: #2d3651;
+    background-color: $color-main;
     opacity: 0.8;
     z-index: 1;
     transition: opacity 0.5s;
@@ -97,7 +97,7 @@
     }
 
     .skill-item__link {
-      color: #d66926;
+      color:$color-accent;
     }
   }
 }
